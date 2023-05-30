@@ -12,5 +12,11 @@ namespace ConsoleApp65
         {
             return i++;
         }
+
+        public int myfunc(int i)
+        {
+            return func(i);
+        }
     }
+
 }

@@ -8,9 +8,11 @@ namespace ConsoleApp65
 {
     internal interface Interface1
     {
-        private int Func(int i)
+        private int func(int i)
         {
             return i;
         }
+
+        int myfunc(int i);
     }
 }
